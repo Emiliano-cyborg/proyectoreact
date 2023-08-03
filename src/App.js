@@ -8,12 +8,11 @@ const App = () => {
     <div>
       <NavbarComponent />
       <div style={contentStyle}>
-        <h1>Mi Ecommerce</h1>
+        <h1>SuperMercado Don Gato</h1>
         <ItemListContainer greeting="¡Bienvenido a nuestro sitio de ecommerce!" />
         <div style={productsContainer}>
           <Productos />
-          <Productos />
-          {/* Agrega más componentes Productos para más tarjetas de productos */}
+          
         </div>
       </div>
     </div>
