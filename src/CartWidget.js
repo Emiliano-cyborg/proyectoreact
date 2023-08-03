@@ -3,7 +3,7 @@ import { BiBasket } from 'react-icons/bi';
 
 
 const CartWidget = () => {
-  const cartItemsCount = 5; // Número harcodeado fijo para la notificación
+  const cartItemsCount = 5; 
 
   return (
     <div>
